@@ -793,6 +793,9 @@ img {
   height: 15px;
   background-image: url(../images/check.svg);
 }
+.modal-checkbox:focus ~ .modal-checkbox-label::before {
+  outline: 2px solid var(--accent-color);
+}
 
 .modal-checkbox-label {
   display: flex;
